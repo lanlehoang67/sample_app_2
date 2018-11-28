@@ -1,13 +1,13 @@
 en:
   layout:
-      basetitle: "Ruby on Rails Tutorial Sample App"
+    basetitle: "Ruby on Rails Tutorial Sample App"
   static_pages:
     home:
       title: "Home"
       link_detail: "Ruby on Rails Tutorial"
       link: "http://www.railstutorial.org/"
       announce_home_html: "This is the home page for the %{hreference} sample
-      application."
+        application."
     help:
       title: "Help"
       link_help: "http://www.railstutorial.org/help"
@@ -15,7 +15,7 @@ en:
       link_book : "http://www.railstutorial.org/book"
       link_book_detail: "Ruby on Rails Tutorial"
       announce_help_html: " Get help on the Ruby on Rails Tutorial
-      at the %{help}.To get help on this sample app, see the %{book}"
+        at the %{help}.To get help on this sample app, see the %{book}"
     about:
       title: "About"
       link: "http://rubyonrails.org/"
@@ -27,11 +27,11 @@ en:
       link_screencast: "http://screencasts.railstutorial.org/"
       link_screencast_detail: "screencast series"
       announce_about_html: "The %{hreftutorial} is a %{book} and
-      %{screencast} to teach web development with
-  %{hreference}. This is the sample application for the tutorial."
+        %{screencast} to teach web development with
+        %{hreference}. This is the sample application for the tutorial."
     contact:
       title: "Contact"
       link: "http://www.railstutorial.org/contact"
       link_detail: "contact page"
       announce_contact_html: "Contact the Ruby on Rails Tutorial
-       about the sample app at the %{hreference}."
+        about the sample app at the %{hreference}."

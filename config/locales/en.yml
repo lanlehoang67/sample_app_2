@@ -1,4 +1,11 @@
 en:
+  helpers:
+    label:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Confirmation"
   layout:
     basetitle: "Ruby on Rails Tutorial Sample App"
     header:
@@ -16,10 +23,21 @@ en:
       contact: "Contact"
       news: "News"
       link_news: "http://news.railstutorial.org/"
+  shared:
+    form_contain: "The form contains %{error_list}"
+    error:
+      one: "1 error"
+      other: "%{count} errors"
   users:
+    private:
+      not_found: "User not found"
     new:
       title: "Sign up"
       detail: "This will be a signup page for new users."
+      confirm: "Confirmation"
+      create: "Create my account"
+    create:
+      success: "Welcome to the Sample App!"
   static_pages:
     home:
       title: "Home"

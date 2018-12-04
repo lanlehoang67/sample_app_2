@@ -6,6 +6,7 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Confirmation"
+        remember_me: "Remember me"
   layout:
     basetitle: "Ruby on Rails Tutorial Sample App"
     header:
@@ -32,6 +33,7 @@ en:
       title: "Log in"
       sign_up_html: "New user? %{href}"
       sign_up_now: "Sign up now!"
+      remember_me: "Remember me on this computer"
   shared:
     form_contain: "The form contains %{error_list}"
     error:

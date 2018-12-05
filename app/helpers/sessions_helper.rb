@@ -68,8 +68,7 @@ module SessionsHelper
       check_session user
       redirect_back_or user
     else
-      message = t("sessions.create.not_activated") + 
-        t("sessions.create.check_email")
+      message = t "sessions.create.not_activated"
       flash[:warning] = message
       redirect_to root_path
     end

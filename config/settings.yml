@@ -2,5 +2,8 @@ users:
   name_length: 50
   email_length: 255
   password_length: 6
+  page_items_count: 30
 sessions:
   checked: "1"
+user_helper:
+  size: 80

@@ -6,4 +6,18 @@ module UsersHelper
     gravatar_url = "https://secure.gravatar.com/avatar/#{gravatar_id}?s=#{size}"
     image_tag(gravatar_url, alt: user.name, class: "gravatar")
   end
+
+  def check current_user, user
+    if current_user.following?(user)
+      render "unfollow"
+    else
+      render "follow"
+    end
+  end
+
+  def check_for_user user
+    return render html: "<div>nothing here</div>".html_safe unless user
+    @users = user.following.paginate page: params[:page]
+    render :show_follow
+  end
 end

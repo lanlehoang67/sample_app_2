@@ -46,6 +46,15 @@ en:
       contact: "Contact"
       news: "News"
       link_news: "http://news.railstutorial.org/"
+  microposts:
+    micropost:
+      micropost_created: "Micropost created"
+      micropost_deleted: "Micropost deleted"
+      size_error: "should be less than 5MB"
+      failed: "Error. Cannot delete."
+      sure: "You sure?"
+      alert: "Maximum file size is 5MB. Please choose a smaller file"
+      posted: "Posted %{href} ago."
   password_resets:
     new:
       title: "Forgot password"
@@ -74,6 +83,12 @@ en:
       not_activated: "Account not activated. Check your email for the activation link."
   shared:
     form_contain: "The form contains %{error_list}"
+    micropost_form:
+      placeholder: "Compose new micropost..."
+      post: "post"
+    user_info:
+      micropost: "micropost"
+      view_profile: "view my profile"
     error:
       one: "1 error"
       other: "%{count} errors"
@@ -105,6 +120,8 @@ en:
     user:
       confirm: "You sure?"
       delete: "delete"
+    show:
+      posts: "Microposts %{href}"
   account_activations:
     edit:
       activated: "Account activated!"
@@ -118,6 +135,7 @@ en:
         application."
       sign_up_now: "Sign up now!"
       logo_detail: "Rails logo"
+      micropost_feed: "Micropost Feed"
     help:
       title: "Help"
       link_help: "http://www.railstutorial.org/help"

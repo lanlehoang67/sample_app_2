@@ -22,7 +22,8 @@ test:
 
 production:
   adapter: postgresql
-  database: myapp_development
-  pool: 5
-  username: lanlehoang10
-  password: "@figure1998"
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  database: lehoanglan_production
+  username: lehoanglan
+  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>

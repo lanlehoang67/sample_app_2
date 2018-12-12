@@ -1,10 +1,10 @@
 class Micropost < ApplicationRecord
   belongs_to :user
-  mount_uploader :picture, PictureUploader
   validates :user_id, presence: true
   validates :content, presence: true,
     length: {maximum: Settings.micropost.content_length}
   validate  :picture_size
+  mount_uploader :picture, PictureUploader
   feed = lambda do |id|
     following_ids = "SELECT followed_id FROM relationships
                        WHERE follower_id = :user_id"

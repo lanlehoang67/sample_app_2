@@ -25,5 +25,9 @@ production:
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   database: lehoanglan_production
-  username: lehoanglan
-  password: <%= ENV['LEHOANGLAN_DATABASE_PASSWORD'] %>
+  port: 5432
+
+  username: ikpaxbmvufsjwr
+  password: 1a17c72d7d5f365dd382253092b1f2f2c1477afdf5aa6f636f6f3c70e8a8a4d8
+
+
